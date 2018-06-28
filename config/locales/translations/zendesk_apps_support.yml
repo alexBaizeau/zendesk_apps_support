@@ -8,7 +8,7 @@ packages:
 
 parts:
   - translation:
-      key: "txt.apps.admin.error.app_build.jshint.one" 
+      key: "txt.apps.admin.error.app_build.jshint.one"
       title: "App builder job: JSHint error message"
       value: "JSHint error in %{file}: %{errors}"
   - translation:
@@ -119,6 +119,14 @@ parts:
       key: "txt.apps.admin.error.app_build.multiple_channel_integrations"
       title: "App builder job: requirements file contains multiple channel integrations, leave requirements.json as is (file name)"
       value: "Specifying multiple channel integrations in requirements.json is not supported."
+  - translation:
+      key: "txt.apps.admin.error.app_build.invalid_cr_schema_keys.one"
+      title: "App builder job: custom resources schema contains invalid key error"
+      value: "Custom resources schema contains an invalid key: %{invalid_types}"
+  - translation:
+      key: "txt.apps.admin.error.app_build.invalid_cr_schema_keys.other"
+      title: "App builder job: custom resources schema contains invalid keys error"
+      value: "Custom resources schema contains invalid keys: %{invalid_types}"
   - translation:
       key: "txt.apps.admin.error.app_build.banner.invalid_format"
       title: "App builder job: Banner image invalid format error"
